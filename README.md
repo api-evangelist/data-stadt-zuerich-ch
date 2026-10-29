@@ -1,4 +1,4 @@
-# Zurich Open Data (data-stadt-zuerich-ch)
+# Zurich Open Data
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,9 +64,103 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Zurich Open Data is a municipal government open-data portal for Switzerland running **CKAN** (~925 datasets).
+Zurich Open Data is a municipal government open-data portal for Switzerland running CKAN. It exposes the CKAN catalog API over approximately 925 datasets.
 
-**URL:** [https://raw.githubusercontent.com/api-evangelist/data-stadt-zuerich-ch/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/data-stadt-zuerich-ch/refs/heads/main/apis.yml)
+**Areas:** Open Data · CKAN · Data Catalog · DCAT · Government Data · Municipal Government · Switzerland
 
-## Maintainers
-**FN:** Kin Lane **Email:** kin@apievangelist.com
+## Zurich Open Data on APIs.io
+
+Everything profiled for Zurich Open Data is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/data-stadt-zuerich-ch/](https://apis.io/providers/data-stadt-zuerich-ch/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Zurich Open Data CKAN Action API](https://apis.io/apis/data-stadt-zuerich-ch/catalog/) — CKAN Action API for Zurich Open Data, ~925 datasets. Base URL https://data.stadt-zuerich.ch/api/3/action/.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Data Stadt Zuerich Ch Domain Security](https://apis.io/security/data-stadt-zuerich-ch/data-stadt-zuerich-ch-domain-security/)
+- [Data Stadt Zuerich Ch Vulnerability Disclosure](https://apis.io/security/data-stadt-zuerich-ch/data-stadt-zuerich-ch-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Data Stadt Zuerich Ch Plans Pricing](https://apis.io/plans/data-stadt-zuerich-ch/data-stadt-zuerich-ch-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Data Stadt Zuerich Ch Rate Limits](https://apis.io/rate-limits/data-stadt-zuerich-ch/data-stadt-zuerich-ch-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Data Stadt Zuerich Ch Finops](https://apis.io/finops/data-stadt-zuerich-ch/data-stadt-zuerich-ch-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://data.stadt-zuerich.ch)
+- [Documentation](https://docs.ckan.org/en/latest/api/)
+
+## API Evangelist rating
+
+**Kin Score 7.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/data-stadt-zuerich-ch/](https://apis.io/providers/data-stadt-zuerich-ch/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Zurich Open Data: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/data-stadt-zuerich-ch/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
